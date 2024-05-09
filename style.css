@@ -1,0 +1,240 @@
+*{
+    margin :0;
+    padding:0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 87px;
+    width: 1534px;
+    display: flex;
+}
+.icon{
+    height: 50px;
+    width: 262px;
+    float :left;
+}
+.logo{
+    width: 177px;
+    height: 150px;
+    padding-left: 0px;
+    padding-top: 15px;
+    margin-left: 0px;
+    margin-top: -34px;
+}
+.menu{
+    width: 1055px;
+    height: 70px;
+    float: left;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+ul li{
+    list-style: none;
+    margin-left: 103px;
+    margin-top: 27px;
+}
+.link{
+    font-size: 22px;
+    list-style: none;
+    color: #ff7200;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.link:hover{
+    color: aliceblue;
+}
+.search{
+    margin-top: 33px;
+    width: 300px;
+    float: left;
+    margin-left: 35px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 142px;
+    height: 32px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: -5px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 9px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    text-decoration: none;
+    width: 98px;
+    height: 31px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: -5px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.content
+{
+    width: 600px;
+    height: 221px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 76px;
+    margin-top: 16%;
+    letter-spacing: 2px;
+}
+.para{
+    color: #fff;
+    padding-left: 82px;
+    padding-bottom: 24px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    color: #fff;
+}
+.content h1 span{
+    color:#ff7200 ;
+}
+.cn{
+    padding: 8px;
+    margin-left: 78px;
+    margin-top: -13px;
+    background: #ff7200;
+    border: none;
+    border-radius: 10px;
+
+}
+.cn a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    padding: 10px;
+}
+.cn:hover{
+    color: #000;
+    background: #fff;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%);
+    position: absolute;
+    top: 246px;
+    left: 1115px;
+    transform: translate(0%, -5%);
+    border-radius: 10px;
+    padding: 16px;
+}
+.form h1{
+    color: #ff7200;
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 17px;
+    padding: 10px;
+}
+.form input{
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    height: 41px;
+    width: 240px;
+    font-family: 'Times New Roman', Times, serif;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.btwn{
+    font-size: 16px;
+    border-radius: 10px;
+    background: #ff7200;
+    color: #fff;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    margin-top: 22px;
+    margin-left: 88px;
+    padding: 9px;
+
+}
+.lin{
+    color:#fff;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 48px;
+}
+.lin a{
+    color:#ff7200;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 48px;
+}
+.liw {
+    margin-top: 17px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 22px;
+    padding-left: 15px;
+    padding-top: 21px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+.marq { 
+    background: #ff7200;
+    position: absolute;
+    bottom: 1px;
+    padding-bottom: 1px;
+} 
+
